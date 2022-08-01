@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rebel216/Awesome-Books"
+    "url": "https://github.com/rebel216/Awesome-Books-2"
   },
-  "homepage": "https://github.com/rebel216/Awesome-Books",
+  "homepage": "https://github.com/rebel216/Awesome-Books-2",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
