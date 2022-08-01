@@ -42,6 +42,7 @@ function getBook() {
 function CreateUIBookList(bookOBJ) {
   const BookListUi = document.getElementById("Book-List");
   const bookList = document.createElement("li");
+  const seperator = document.createElement('hr');
   bookList.classList.add("book-item");
   bookList.setAttribute("id", bookOBJ.id);
   bookList.innerHTML = `${bookOBJ.Title}by ${bookOBJ.Author}`;
@@ -49,6 +50,7 @@ function CreateUIBookList(bookOBJ) {
   deleteBook.innerHTML = "Remove";
   deleteBook.addEventListener("click", () => booklist.removeBook(bookOBJ.id));
   bookList.appendChild(deleteBook);
+  bookList.appendChild(seperator);
   BookListUi.appendChild(bookList);
 }
 
