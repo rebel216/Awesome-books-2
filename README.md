@@ -3,16 +3,6 @@ Portfolio to Microverse course
 
 # Awesome Book-List Microverse
 
->Awesome Book-List using HTML, CSS, JavaScript
-
-### Check out in this [link](https://rebel216.github.io/Awesome-Books/)
-
-
-
-## Acknowledgements
-
-
-
 ## Built With
 
 - HTML, CSS, JavaScript
@@ -26,7 +16,6 @@ To get a local copy up follow these simple example steps.
 - GIT
 
 ### Setup
-
 
 
 👤 **Author1**
