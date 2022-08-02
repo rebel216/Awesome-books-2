@@ -40,7 +40,7 @@ function getBook() {
 }
 
 function CreateUIBookList(bookOBJ) {
-  const BookListUi = document.getElementById('Book-List');
+  const BookListUi = document.getElementById('Bookcollection');
   const bookList = document.createElement('li');
   const seperator = document.createElement('hr');
   bookList.classList.add('book-item');
