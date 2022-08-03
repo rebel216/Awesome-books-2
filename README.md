@@ -18,11 +18,17 @@ To get a local copy up follow these simple example steps.
 ### Setup
 
 
-👤 **Author1**
+👤 **Neeraj Bhardwaj**
 
 - GitHub: [@rebel216](https://github.com/rebel216)
 - Twitter: [@rebel216](https://twitter.com/rebel216)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/rebel216)
+- LinkedIn: [@rebel216](https://linkedin.com/in/rebel216)
+
+👤 **Tahseen Zahra**
+
+- GitHub: [@tahseenzahra](https://github.com/tahseenzahra)
+- Twitter: [@tahseen1zahra](https://twitter.com/tahseen1zahra)
+- LinkedIn: [@tahseenzahra](https://www.linkedin.com/in/tahseenzahra/)
 
 ## 📝 License
 

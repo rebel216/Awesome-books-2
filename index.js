@@ -42,15 +42,16 @@ function getBook() {
 function CreateUIBookList(bookOBJ) {
   const BookListUi = document.getElementById('Bookcollection');
   const bookList = document.createElement('li');
-  const seperator = document.createElement('hr');
+  const bookdiv = document.createElement('div');
   bookList.classList.add('book-item');
-  bookList.setAttribute('id', bookOBJ.id);
-  bookList.innerHTML = `${bookOBJ.Title}by ${bookOBJ.Author}`;
+  bookdiv.setAttribute('id', bookOBJ.id);
+  bookdiv.innerHTML = `${bookOBJ.Title} by ${bookOBJ.Author}`;
+  bookList.appendChild(bookdiv);
   const deleteBook = document.createElement('button');
   deleteBook.innerHTML = 'Remove';
+  deleteBook.classList.add('remove-btn');
   deleteBook.addEventListener('click', () => booklist.removeBook(bookOBJ.id));
   bookList.appendChild(deleteBook);
-  bookList.appendChild(seperator);
   BookListUi.appendChild(bookList);
 }
 
@@ -130,7 +131,7 @@ function display(section) {
       linkAllBooks.style.color = 'black';
       linkAddBook.style.color = 'black';
       linkContact.style.color = 'blue';
-      Contact.style.display = 'block';
+      Contact.style.display = 'flex';
       heading.innerHTML = 'Contact Information';
       break;
 
