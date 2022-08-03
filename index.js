@@ -44,7 +44,7 @@ function CreateUIBookList(bookOBJ) {
   const bookList = document.createElement('li');
   const bookdiv = document.createElement('div');
   bookList.classList.add('book-item');
-  bookdiv.setAttribute('id', bookOBJ.id);
+  bookList.setAttribute('id', bookOBJ.id);
   bookdiv.innerHTML = `${bookOBJ.Title} by ${bookOBJ.Author}`;
   bookList.appendChild(bookdiv);
   const deleteBook = document.createElement('button');
