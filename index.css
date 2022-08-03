@@ -129,7 +129,6 @@ h1 {
 
 .allawesomebooks {
   display: grid;
-  /* text-decoration: underline; */
   justify-content: center;
   text-align: center;
   margin-bottom: 400px;

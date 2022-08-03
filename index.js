@@ -43,7 +43,6 @@ function CreateUIBookList(bookOBJ) {
   const BookListUi = document.getElementById('Bookcollection');
   const bookList = document.createElement('li');
   const bookdiv = document.createElement('div');
-  const seperator = document.createElement('hr');
   bookList.classList.add('book-item');
   bookdiv.setAttribute('id', bookOBJ.id);
   bookdiv.innerHTML = `${bookOBJ.Title} by ${bookOBJ.Author}`;
@@ -53,7 +52,6 @@ function CreateUIBookList(bookOBJ) {
   deleteBook.classList.add('remove-btn');
   deleteBook.addEventListener('click', () => booklist.removeBook(bookOBJ.id));
   bookList.appendChild(deleteBook);
-  // bookList.appendChild(seperator);
   BookListUi.appendChild(bookList);
 }
 
