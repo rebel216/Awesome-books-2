@@ -21,7 +21,7 @@ To get a local copy up follow these simple example steps.
 👤 **Neeraj Bhardwaj**
 
 - GitHub: [@rebel216](https://github.com/rebel216)
-- Twitter: [@rebel216](https://twitter.com/rebel216)
+- Twitter: [@rebel216](https://twitter.com/sunny21686)
 - LinkedIn: [@rebel216](https://www.linkedin.com/in/neeraj-bhardwaj-06491522a/)
 
 👤 **Tahseen Zahra**
