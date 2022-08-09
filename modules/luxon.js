@@ -1,3 +1,4 @@
+/* eslint-disable */
 // This file is ignored on ESlint
 // these aren't really private, but nor are they really useful to document
 
