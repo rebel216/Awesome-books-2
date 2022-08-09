@@ -1,5 +1,5 @@
 /* eslint-disable */
-// This file is ignored on ESlint
+
 /**
  * @private
  */
