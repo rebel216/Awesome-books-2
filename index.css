@@ -1,135 +1,189 @@
-.heading {
-  border: 3px solid #000;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  height: 20px;
-  text-align: center;
-}
-
-body {
-  height: 98vh;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-ul {
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
 
-li {
-  list-style: none;
+html {
+  scroll-behavior: smooth;
 }
 
-.bookTitle .bookAuthor {
-  justify-content: center;
+body {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 20px;
+  align-items: center;
+  overflow-y: scroll;
 }
 
-.addBooks {
-  display: none;
-  gap: 20px;
+/* Header Section */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  padding: 0.5rem;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  place-items: center;
-  margin-top: -20%;
-  padding-top: 10%;
+  border-radius: 10px;
 }
 
-.booksList {
+h2 {
+  font-size: 2rem;
+}
+
+nav ul {
   display: flex;
-  border-radius: 8px;
-  margin: 0 auto 20px auto;
+  flex-direction: row;
 }
 
-.remove-btn {
-  margin-left: 200px;
+nav ul li {
+  list-style-type: none;
+  margin-left: 1rem;
 }
 
-.Contactinfo {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Bookcollection {
-  display: grid;
-  border: solid;
-  gap: 3px;
-  text-align: center;
-  margin-top: -10px;
-}
-
-.list button {
-  margin-right: 30%;
-  margin-top: 15px;
-  width: 100px;
-  height: 40px;
-  justify-content: center;
-}
-
-.navbar {
-  display: flex;
-  gap: 15px;
-  margin-right: 20px;
-}
-
-.heading-title {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.contactlinks {
-  text-decoration: solid;
-  padding-left: 15%;
-}
-
-.contactlinks > li {
-  margin-right: 130px;
-  justify-content: left;
-  text-decoration: #000;
-  background-color: white;
-  color: rgb(225, 11, 11);
-}
-
-a {
+.linkBtn {
   text-decoration: none;
-  background-color: white;
-  color: #000;
+  color: black;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.active {
+  color: blue;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
 }
 
 h1 {
-  text-align: center;
-  margin-top: -40%;
+  font-size: 1.5rem;
 }
 
-.book-item {
-  list-style-type: none;
-  display: flex;
-  margin: 1px;
-  justify-content: space-between;
-  align-items: center;
+button {
+  border: 2px solid black;
+  box-shadow: 2px 2px 1px black;
+}
+
+input {
+  height: 30px;
+  margin: 5px 0;
+  border: 3px solid black;
+}
+
+/* List Section */
+.list {
+  display: block;
+  width: 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
   text-align: center;
-  margin-left: 2px;
+}
+
+.list h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.collection div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+
+.collection div:nth-child(odd) {
+  background-color: rgb(198, 198, 198);
+}
+
+.collection p {
+  margin: auto 0 auto 10px;
+}
+
+.collection button {
+  margin: auto 10px auto 0;
+  height: 35px;
+}
+
+.line {
+  margin-top: 20px;
+  height: 3px;
+  width: 200px;
+  background-color: black;
+}
+
+/* Add New Section */
+.addNew {
+  display: none;
+  width: 40%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.addNew h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.book-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-input input {
+  padding: 1rem;
+}
+
+#addBtn {
+  margin-left: auto;
   padding: 0.5rem;
 }
 
-.book-item:nth-child(odd) {
-  background: rgb(246, 242, 242);
+/* Contact Section */
+.contact {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
 }
 
-.allawesomebooks {
-  display: grid;
-  justify-content: center;
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
   text-align: center;
-  margin-bottom: 400px;
+}
+
+.contact p,
+.contact ul {
+  text-align: left;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact ul {
+  margin-left: 3rem;
+}
+
+/* Footer Section */
+footer {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid black;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
 }
